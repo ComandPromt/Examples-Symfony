@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Twitfony Client</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" />
+		<script src="scripts.js"></script>
+	</head>
+	<body>
+		<div class="topnav">
+			<img id="logo" src="logo.png"/>
+			<h1>JavaScript Twitfony Client</h1>
+		</div>
+		<div id="contenedor">
+
+		</div>
+		<div id="formulario">
+				<form>
+					<fieldset>
+						<legend>Conectar</legend>
+							<label>URL:</label>
+							<input type="text" name="txtURL" id="txtURL"/><br/>
+							<input type="button" name="btnConnect" onclick="obtenerTweets()" value="Conectar"/>
+					</fieldset>
+					<fieldset>
+						<legend>Añadir tweet</legend>
+							<label>Nombre:</label>
+							<input type="text" name="txtNombreAutor" id="txtNombreAutor"/>
+							<label>Usuario:</label>
+							<input type="text" name="txtUsuarioAutor" id="txtUsuarioAutor"/>
+							<label>Texto:</label>
+							<textarea name="tarTexto" id="tarTexto"></textarea><br/>
+							<input type="button" name="btnAnadir" onclick="alert('Por hacer')" value="Añadir"/>
+					</fieldset>
+				</form>
+		</div>
+	</body>
+</html>

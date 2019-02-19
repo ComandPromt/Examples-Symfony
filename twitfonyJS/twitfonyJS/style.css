@@ -1,0 +1,103 @@
+body {
+    background-color: #f0ccc6;
+    color: #14171a;
+    font-size: 14px;
+    line-height: 20px;
+    overflow-y: scroll;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    height: 46px;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    text-align: left;
+}
+
+.topnav #logo {
+    height: 42px;
+    padding-left: 10px;
+}
+
+.topnav h1{
+margin: 0px;
+display: inline;
+padding-left: 10px;
+color: #6E2323;
+line-height: 42px;
+vertical-align: top;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #236E6E;
+    color: white;
+}
+
+#contenedor, #formulario {
+    background-color: white;
+    border-bottom: 1px solid #e6ecf0;
+    width: 800px;
+    margin:auto;
+    margin-top:15px;
+}
+
+.tweetline {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.tweetline .tweet {
+    min-height: 51px;
+
+    padding: 9px 12px;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+.tweetline .tweet .contenido {
+    margin-left: 58px;
+}
+
+.tweetline .tweet .avatarSmall {
+    float: left;
+    margin-top: 3px;
+    margin-left: -58px;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    -moz-force-broken-image-icon: 1;
+}
+.tweetline .tweet .cabecera {
+    color: #657786;
+}
+.tweetline .tweet a {
+    color: #14171a;
+    text-decoration: none;
+}
+
+.tweetline .tweet .delete {
+    float:right;
+}
+
+.tweetline .tweet .delete a{
+    color: #ddd;
+    font-weight:bold;
+}
+
+.tweetline .tweet .delete a:hover{
+    color: red;
+    font-weight:bold;
+}
+
+#formulario form {
+    padding: 10px;
+}
+#formulario label{
+    display: block;
+}
